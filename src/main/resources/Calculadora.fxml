@@ -69,6 +69,9 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <Label fx:id="lblPantalla" layoutX="115.0" layoutY="184.0" prefHeight="51.0" prefWidth="106.0" />
+      <Label fx:id="lblPantalla" layoutX="115.0" layoutY="184.0" prefHeight="51.0" prefWidth="106.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
    </children>
 </AnchorPane>
