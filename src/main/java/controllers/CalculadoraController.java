@@ -14,6 +14,9 @@ public class CalculadoraController {
     private Label lblResultado;
 
     @FXML
+    private Label lblPantalla;
+
+    @FXML
     private TextField txtPrimerNumero;
 
     @FXML
@@ -25,6 +28,32 @@ public class CalculadoraController {
         lblResultado.setText("");
         txtPrimerNumero.clear();
         txtSegundoNumero.clear();
+
+    }
+
+    @FXML
+    void logaritmoNaturalNumero(ActionEvent event) {
+
+    }
+
+    @FXML
+    void logaritmoNumero(ActionEvent event) {
+
+    }
+
+    @FXML
+    void ansNumero(ActionEvent event) {
+
+    }
+
+    @FXML
+    void raizNumero(ActionEvent event) {
+        double numero1 = Double.parseDouble(txtPrimerNumero.getText());
+        double numero2 = Double.parseDouble(txtSegundoNumero.getText());
+
+        double resultado = calculadora.raiz(numero1,numero2);
+
+        lblResultado.setText(String.valueOf(resultado));
 
     }
 

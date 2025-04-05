@@ -9,45 +9,66 @@
 
 <AnchorPane prefHeight="411.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CalculadoraController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bcc3bf" height="250.0" layoutX="55.0" layoutY="48.0" stroke="BLACK" strokeType="INSIDE" width="401.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="30.0" layoutX="115.0" layoutY="232.0" stroke="BLACK" strokeType="INSIDE" width="81.0" />
-      <Label fx:id="lblResultado" layoutX="135.0" layoutY="238.0" prefHeight="17.0" prefWidth="41.0" />
-      <TextField fx:id="txtPrimerNumero" layoutX="75.0" layoutY="81.0" promptText="Primer Numero" />
-      <TextField fx:id="txtSegundoNumero" layoutX="75.0" layoutY="125.0" promptText="Segundo Numero" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bcc3bf" height="322.0" layoutX="55.0" layoutY="48.0" stroke="BLACK" strokeType="INSIDE" width="401.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="30.0" layoutX="310.0" layoutY="103.0" stroke="BLACK" strokeType="INSIDE" width="96.0" />
+      <Label fx:id="lblResultado" layoutX="337.0" layoutY="109.0" prefHeight="17.0" prefWidth="41.0" />
+      <TextField fx:id="txtPrimerNumero" layoutX="75.0" layoutY="81.0" prefHeight="25.0" prefWidth="171.0" promptText="Primer Numero" />
+      <TextField fx:id="txtSegundoNumero" layoutX="75.0" layoutY="125.0" prefHeight="25.0" prefWidth="171.0" promptText="Segundo Numero" />
       <Label layoutX="195.0" prefHeight="42.0" prefWidth="112.0" text="Calculadora">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Button layoutX="303.0" layoutY="81.0" mnemonicParsing="false" onAction="#sumarNumeros" text="+">
+      <Button layoutX="75.0" layoutY="271.0" mnemonicParsing="false" onAction="#sumarNumeros" prefHeight="30.0" prefWidth="41.0" text="+">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="303.0" layoutY="125.0" mnemonicParsing="false" onAction="#restarNumeros" prefHeight="30.0" prefWidth="28.0" text="-">
+      <Button layoutX="122.0" layoutY="271.0" mnemonicParsing="false" onAction="#restarNumeros" prefHeight="30.0" prefWidth="41.0" text="-">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="374.0" layoutY="81.0" mnemonicParsing="false" onAction="#multiplicarNumeros" prefHeight="30.0" prefWidth="28.0" text="*">
+      <Button layoutX="168.0" layoutY="271.0" mnemonicParsing="false" onAction="#multiplicarNumeros" prefHeight="30.0" prefWidth="41.0" text="*">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="374.0" layoutY="125.0" mnemonicParsing="false" onAction="#dividirNumeros" prefHeight="30.0" prefWidth="28.0" text="/">
+      <Button layoutX="216.0" layoutY="271.0" mnemonicParsing="false" onAction="#dividirNumeros" prefHeight="30.0" prefWidth="41.0" text="/">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="303.0" layoutY="173.0" mnemonicParsing="false" onAction="#borrarNumeros" prefHeight="30.0" prefWidth="28.0" text="C">
+      <Button layoutX="365.0" layoutY="271.0" mnemonicParsing="false" onAction="#borrarNumeros" prefHeight="30.0" prefWidth="41.0" text="AC">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="374.0" layoutY="173.0" mnemonicParsing="false" onAction="#potenciaNumero" prefHeight="30.0" prefWidth="28.0" text="^">
+      <Button layoutX="75.0" layoutY="316.0" mnemonicParsing="false" onAction="#potenciaNumero" prefHeight="30.0" prefWidth="41.0" text="^">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
+      <Button layoutX="168.0" layoutY="316.0" mnemonicParsing="false" onAction="#logaritmoNumero" prefHeight="30.0" prefWidth="41.0" text="log">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="122.0" layoutY="316.0" mnemonicParsing="false" onAction="#raizNumero" prefHeight="30.0" prefWidth="41.0" text="√">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="216.0" layoutY="316.0" mnemonicParsing="false" onAction="#logaritmoNaturalNumero" prefHeight="30.0" prefWidth="41.0" text="ln">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="365.0" layoutY="316.0" mnemonicParsing="false" onAction="#ansNumero" prefHeight="30.0" prefWidth="41.0" text="Ans">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblPantalla" layoutX="115.0" layoutY="184.0" prefHeight="51.0" prefWidth="106.0" />
    </children>
 </AnchorPane>

@@ -45,4 +45,8 @@ public class Calculadora {
     public double potencia(int a, int b){
         return Math.pow(a,b);
     }
+
+    public double raiz(double a,double b){
+        return Math.pow(a,1/b);
+    }
 }
