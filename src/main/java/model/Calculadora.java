@@ -45,8 +45,13 @@ public class Calculadora {
     public double potencia(int a, int b){
         return Math.pow(a,b);
     }
-
     public double raiz(double a,double b){
         return Math.pow(a,1/b);
+    }
+    public double logaritmo(double a, double b){
+        return (Math.log(a) / Math.log(b));
+    }
+    public double log_natural(double a){
+        return Math.log(a);
     }
 }
