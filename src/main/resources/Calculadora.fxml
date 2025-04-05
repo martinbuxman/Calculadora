@@ -10,11 +10,11 @@
 <AnchorPane prefHeight="411.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CalculadoraController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bcc3bf" height="322.0" layoutX="55.0" layoutY="48.0" stroke="BLACK" strokeType="INSIDE" width="401.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="30.0" layoutX="310.0" layoutY="103.0" stroke="BLACK" strokeType="INSIDE" width="96.0" />
-      <Label fx:id="lblResultado" layoutX="337.0" layoutY="109.0" prefHeight="17.0" prefWidth="41.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="30.0" layoutX="272.0" layoutY="169.0" stroke="BLACK" strokeType="INSIDE" width="134.0" />
+      <Label fx:id="lblResultado" layoutX="326.0" layoutY="176.0" prefHeight="17.0" prefWidth="60.0" textAlignment="CENTER" />
       <TextField fx:id="txtPrimerNumero" layoutX="75.0" layoutY="81.0" prefHeight="25.0" prefWidth="171.0" promptText="Primer Numero" />
       <TextField fx:id="txtSegundoNumero" layoutX="75.0" layoutY="125.0" prefHeight="25.0" prefWidth="171.0" promptText="Segundo Numero" />
-      <Label layoutX="195.0" prefHeight="42.0" prefWidth="112.0" text="Calculadora">
+      <Label layoutX="209.0" prefHeight="42.0" prefWidth="96.0" text="Calculadora">
          <font>
             <Font size="18.0" />
          </font>
@@ -69,7 +69,9 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <Label fx:id="lblPantalla" layoutX="115.0" layoutY="184.0" prefHeight="51.0" prefWidth="106.0">
+      <Label layoutX="313.0" layoutY="142.0" text="Resultado" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00b582" height="51.0" layoutX="272.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="134.0" />
+      <Label fx:id="lblPantalla" layoutX="279.0" layoutY="86.0" prefHeight="42.0" prefWidth="118.0" textAlignment="CENTER">
          <font>
             <Font size="20.0" />
          </font></Label>
